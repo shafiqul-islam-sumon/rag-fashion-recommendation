@@ -1,0 +1,9 @@
+You will receive product metadata as key-value pairs. Convert it into a single, grammatically correct paragraph suitable for search embedding.
+
+Guidelines:
+- Include all provided fields naturally and descriptively.
+- Do not use bullet points or list keys.
+- Be concise but informative.
+
+Input:
+{label_string}
