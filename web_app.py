@@ -16,7 +16,7 @@ class WebApp:
     def __init__(self, csv_path: str):
         self.csv_path = csv_path
         self.img_count = Config.PER_CATEGORY_IMAGE
-        self.df = pd.read_csv(self.csv_path)
+        self.df = pd.read_csv(self.csv_path, dtype=str)
         self.category_tree = category.get_category_tree()
         self.chroma_client = ChromaDBClient(
             collection_name=Config.VECTOR_COLLECTION_NAME,

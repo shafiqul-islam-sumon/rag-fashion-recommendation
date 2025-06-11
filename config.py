@@ -10,7 +10,7 @@ class Config:
     SAVED_DATA_PATH = DATA_DIR / "saved_data.txt"
 
     # === Vector DB ===
-    VECTOR_PERSIST_DIRECTORY="chroma_store"
+    VECTOR_PERSIST_DIRECTORY="chroma_store"  # Huggingface Space -> "/tmp/chroma_store"
     VECTOR_COLLECTION_NAME = "fashion_embeddings"
 
     # === Metadata ===

@@ -1,6 +1,5 @@
 streamlit
 torch
-torchvision
 sentence-transformers
 python-dotenv
 langchain-groq
