@@ -148,4 +148,6 @@ if __name__ == "__main__":
     client.export_all_ids_to_csv(Config.SAVED_ID_PATH)
     client.export_all_data_to_txt(Config.SAVED_DATA_PATH, include_embeddings=False)
 
-
+    # Make chroma_store zip file for Huggingface Space
+    # 1. cd chroma_store
+    # 2. zip -r ../chroma_store.zip .
