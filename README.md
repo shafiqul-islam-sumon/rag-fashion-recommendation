@@ -69,6 +69,12 @@ Here are some example queries:
 
 Let the AI assistant take care of the rest!
 
+## 🔗 GitHub Repository
+
+You can explore the full source code, Docker setup, and implementation details on GitHub:
+
+[👉 RAG Fashion Recommendation System](https://github.com/shafiqul-islam-sumon/rag-fashion-recommendation)
+
 
 ## 🚀 Try It Live
 
