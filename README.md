@@ -2,10 +2,6 @@
 
 An AI-powered fashion recommendation system that enables users to search for products using plain natural language. Built using Retrieval-Augmented Generation (RAG), semantic embeddings, and large language models — this system transforms raw metadata into searchable intelligence.
 
-Try it live → [Hugging Face Space](https://huggingface.co/spaces/shafiqul1357/rag-fashion-recommendation)  
-📘 Read the full blog → [https://shafiqulai.github.io/blogs/blog_4.html?id=4](https://shafiqulai.github.io/blogs/blog_4.html?id=4)
-
----
 
 ## 🚀 Features
 
@@ -15,7 +11,6 @@ Try it live → [Hugging Face Space](https://huggingface.co/spaces/shafiqul1357/
 - 🖼️ **Streamlit UI** — Clean interface with category sidebar, product gallery, detail viewer, and chat bar.
 - 🔍 **Hybrid Search Ready** — Leverages ChromaDB for efficient vector similarity retrieval with optional filters.
 
----
 
 ## 🧰 Tech Stack
 
@@ -26,7 +21,6 @@ Try it live → [Hugging Face Space](https://huggingface.co/spaces/shafiqul1357/
 - **Prompt Management**: Custom `.txt` prompt templates
 - **Data Source**: [Fashion Product Images (Small)](https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-small)
 
----
 
 ## ⚙️ Setup
 
@@ -66,13 +60,11 @@ streamlit run web_app.py
 
 Then open http://localhost:8501 in your browser.
 
----
 
 ## 🖼️ Web UI Preview
 
 <img src="figure/app.png" alt="RAG Fashion Recommender UI" width="100%" />
 
----
 
 ## 📁 Project Structure
 
@@ -102,7 +94,6 @@ rag-fashion-recommendation/
 └── README.md                   ← Project documentation
 ```
 
----
 
 ## 🧪 Example Query
 
@@ -112,7 +103,6 @@ rag-fashion-recommendation/
 ✔️ Filters by season and price  
 ✔️ Re-ranked to prioritize intent over keyword match
 
----
 
 ## 📘 Learn More
 
