@@ -359,10 +359,13 @@ class WebApp:
         self.render_chat_input()
 
 
+@st.cache_resource
+def get_app():
+    return WebApp(csv_path=Config.STYLE_CSV)
+
+
 if __name__ == "__main__":
-    
-    style_csv = Config.STYLE_CSV
-    app = WebApp(csv_path=style_csv)
+    app = get_app()
     app.render()
 
     # Huggingface App: https://huggingface.co/spaces/shafiqul1357/rag-fashion-recommendation
